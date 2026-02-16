@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  TheWay
+
+  Created by Mateus on 15/02/26.
+  
+*/
+
+// MARK - LOGIN SCREEN
+
+"login.label.title" = "The Living Bible";
+"login.label.subtitle" = "Your daily journey with the word of God.";
+"login.email.placeholder" = "email@gmail.com";
+"login.password.placeholder" = "senha";
+"login.button.title" = "ENTRAR";
+
+// MARK - HOME SCREEN
+
+// MARK - RECEIPTS SCREEN
+
+// MARK - NEW RECEPITS SCREEN
