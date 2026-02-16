@@ -69,20 +69,17 @@ class ViewController: UIViewController {
                 logoTheWay.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 logoTheWay.bottomAnchor.constraint(equalTo: label.topAnchor, constant: -24),
 
-                // Labels
                 label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
 
                 subLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 subLabel.topAnchor.constraint(equalTo: label.bottomAnchor, constant: 8),
 
-                // Apple
                 loginAppleButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 loginAppleButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -32),
                 loginAppleButton.widthAnchor.constraint(equalToConstant: 280),
                 loginAppleButton.heightAnchor.constraint(equalToConstant: 50),
 
-                // Google
                 loginGoogleButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 loginGoogleButton.bottomAnchor.constraint(equalTo: loginAppleButton.topAnchor, constant: -12),
                 loginGoogleButton.widthAnchor.constraint(equalToConstant: 280),
