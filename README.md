@@ -42,6 +42,6 @@ Main screen after entering the app, displaying:
 ---
 
 
-<img width="200" height="600" alt="image" src="https://github.com/user-attachments/assets/1a7e6c0a-9162-4de2-a096-6482b9888f25" />
+<img width="300" height="700" alt="image" src="https://github.com/user-attachments/assets/1a7e6c0a-9162-4de2-a096-6482b9888f25" />
 
-<img width="200" height="600" alt="image" src="https://github.com/user-attachments/assets/16db7fcc-c560-499b-a6b5-c0cfd1d7fbc2" />
+<img width="300" height="700" alt="image" src="https://github.com/user-attachments/assets/16db7fcc-c560-499b-a6b5-c0cfd1d7fbc2" />
