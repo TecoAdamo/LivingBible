@@ -20,22 +20,19 @@ final class Button: UIButton {
     }
     
     private func setup(){
-        backgroundColor = Colors.PrimaryGray
         layer.cornerRadius = 14
-        layer.borderWidth = 1
-        layer.borderColor = UIColor.lightGray.cgColor
-        
-        setTitleColor(.white, for: .normal)
         titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
-        
-        tintColor = .white
         translatesAutoresizingMaskIntoConstraints = false
-        
         contentHorizontalAlignment = .center
-        imageEdgeInsets = UIEdgeInsets(top: 0, left: -8, bottom: 0, right: 8)
+        
     }
-    func configure(title: String, icon: UIImage?){
+    func configure(
+        title: String,
+        backgroundColor: UIColor,
+        titleColor: UIColor = .white
+    ) {
         setTitle(title, for: .normal)
-        setImage(icon, for: .normal)
+        setTitleColor(titleColor, for: .normal)
+        self.backgroundColor = backgroundColor
     }
 }
